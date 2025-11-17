@@ -1,0 +1,17 @@
+line-length = 100
+target-version = "py311"
+
+[lint]
+# Enable a common, not-too-strict ruleset
+select = [
+  "E",   # pycodestyle errors
+  "F",   # pyflakes
+  "I",   # import sorting
+]
+# You can add more later, like "B" (bugbear) or "UP" (pyupgrade)
+
+[format]
+# Use Ruff's formatter (similar to Black)
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false

@@ -1,0 +1,9 @@
+langchain
+langgraph
+langchain-community
+langchain-openai
+tavily-python
+langchain-tavily
+python-dotenv
+ruff
+mypy

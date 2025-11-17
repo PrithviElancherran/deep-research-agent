@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Type checker / linter caches
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables (any .env file anywhere)
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
