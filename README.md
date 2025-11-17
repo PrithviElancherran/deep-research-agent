@@ -73,7 +73,7 @@ SYSTEM_PROMPT=You are a careful deep research assistant. You MUST ground your an
 ```
 
 > **Note:**  
-> `.env` is included in `.gitignore`, so your API keys will **not** be committed to GitHub.
+> `.env` is included in `.gitignore`, so the API keys are **not** committed to GitHub.
 
 ---
 
@@ -206,7 +206,7 @@ Even a small cache can significantly reduce latency in iterative research workfl
 
 ---
 
-### 4. Parallelize Search & Summarization (Leverage LangGraph)
+### 4. Parallelize Search & Summarization (Leveraging LangGraph)
 
 LangGraph supports parallel node execution.  
 A more advanced architecture would split tasks into concurrent branches, for example:
